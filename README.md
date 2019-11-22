@@ -1,6 +1,6 @@
 ### Sudoku Web backend (Level 1)
 
-#### Techniques used : React, Express, Jasmine
+#### Techniques used : Express, Jasmine
 
 * Prepare folder and install npm modules
     * mkdir sudoku-backend
