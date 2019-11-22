@@ -12,6 +12,11 @@
     * npm i request --save
     * npm i jasmine-node --save
     * npm i sudoku --save
+    * Add the build part into package.json like
+        * ```  "scripts": {
+    "test": "jasmine-node spec",
+    "build": "jasmine-node spec"
+  },```
  
 * Program with app.js
     * Put codes for `GET /sudoku/board` into `app.get('/sudoku/board', ...`<br>
