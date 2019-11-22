@@ -17,9 +17,15 @@
     * Put codes for `GET /sudoku/board` into `app.get('/sudoku/board', ...`<br>
     * See [app.js](https://github.com/hotdeveloper/sudoku-backend/blob/master/app.js)
 
-* Add thge API test 
+* Add the API test 
     * mkdir spec
     * Put the test codes for the Sudoku rule into spec/backend.spec.js
     * Read each row and sorting array and compare the [0,1,2,3,4,5,6,7,8]
     * Read each column and sorting array and compare the [0,1,2,3,4,5,6,7,8]
     * See [spec/backend.spec.js](https://github.com/hotdeveloper/sudoku-backend/blob/master/spec/backend.spec.js)
+
+* Test 
+   * `npm run build` on the project root directory.
+   
+* Run
+   * `node app.js`
