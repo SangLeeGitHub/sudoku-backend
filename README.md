@@ -2,7 +2,7 @@
 
 #### Techniques used : React, Express, Jasmine
 
-1. Prepare folder and install npm modules
+- Prepare folder and install npm modules
  - mkdir sudoku-backend
  - cd sudoku-backend
  - npm init
@@ -13,6 +13,6 @@
  - npm i jasmine-node --save
  - npm i sudoku --save
  
-2. Program with app.js
- - Put codes for `GET /sudoku/board` into `app.get('/sudoku/board', ...`
+- Program with app.js
+ - Put codes for `GET /sudoku/board` into `app.get('/sudoku/board', ...`<br>
    [app.js](https://github.com/hotdeveloper/sudoku-backend/blob/master/app.js)
