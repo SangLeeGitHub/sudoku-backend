@@ -13,13 +13,13 @@
     * npm i jasmine-node --save
     * npm i sudoku --save
     * Add the scripts part in package.json like
-```javascript  
-  "scripts": {
-    "test": "jasmine-node spec --verbose",
-    "build": "npm install && jasmine-node spec --verbose",
-    "start": "node app.js"
-  },
-```
+      ```javascript  
+        "scripts": {
+          "test": "jasmine-node spec --verbose",
+          "build": "npm install && jasmine-node spec --verbose",
+          "start": "node app.js"
+        },
+      ```
  
 * Program with app.js
     * Put codes for `GET /sudoku/board` into `app.get('/sudoku/board', ...`<br>
