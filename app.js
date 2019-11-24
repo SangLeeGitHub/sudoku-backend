@@ -5,6 +5,7 @@ const port = 8080;
 const arr = [];
 let s = [];
 var exports = module.exports = {};
+var server = null;
 
 for (var i = 0; i < 81; i++) arr.push(null);
 
@@ -14,8 +15,9 @@ app.get('/sudoku/board', (req, res) => {
 	res.send(JSON.stringify(s));
 });
 
-app.listen(port, () => console.log(`Sudoku API listening on port ${port}!`));
+server = app.listen(port, () => console.log(`Sudoku API listening on port ${port}!`));
 
 exports.closeServer = function () {
+
 	server.close();
 };

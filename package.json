@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine-node spec",
-    "build": "jasmine-node spec"
+    "test": "jasmine-node spec --verbose",
+    "build": "npm install && jasmine-node spec --verbose",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
