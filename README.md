@@ -12,11 +12,12 @@
     * npm i request --save
     * npm i jasmine-node --save
     * npm i sudoku --save
-    * Add the build part into package.json like
+    * Add the scripts part in package.json like
 ```javascript  
-"scripts": {
-    "test": "jasmine-node spec",
-    "build": "jasmine-node spec"
+  "scripts": {
+    "test": "jasmine-node spec --verbose",
+    "build": "npm install && jasmine-node spec --verbose",
+    "start": "node app.js"
   },
 ```
  
@@ -31,7 +32,7 @@
     * Read each column and sort array and compare with the [0,1,2,3,4,5,6,7,8]
     * See [spec/backend.spec.js](https://github.com/hotdeveloper/sudoku-backend/blob/master/spec/backend.spec.js)
 
-* Test 
+* Build and test
    * `npm run build` on the project root directory.
    
 * Run
