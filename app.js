@@ -18,6 +18,7 @@ app.get('/sudoku/board', (req, res) => {
 
 server = app.listen(port, () => console.log(`Sudoku API listening on port ${port}!`));
 
+// To stop the server from the external endpoint.
 exports.closeServer = function () {
 
 	server.close();

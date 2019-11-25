@@ -69,7 +69,7 @@ describe("Sudoku API Exists", function() {
                     }
                 }
 
-                backend.closeServer();
+                backend.closeServer(); // Stop the server
                 done();
             });
         });
