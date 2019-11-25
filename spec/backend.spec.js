@@ -1,7 +1,7 @@
 var request = require("request");
 var backend = require("../app.js");
 var base_url = "http://localhost:8080/sudoku/board";
-var testVal = [0,1,2,3,4,5,6,7,8];
+var testVal = [1,2,3,4,5,6,7,8,9];
 
 describe("Sudoku API Exists", function() {
     describe("GET /sudoku/board", function() {
