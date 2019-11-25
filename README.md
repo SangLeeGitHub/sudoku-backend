@@ -6,7 +6,7 @@
     * mkdir sudoku-backend
     * cd sudoku-backend
     * npm init
-        * entry point : **app.js**
+        * entry point : app.js
         * test command : jasmine-node spec
     * npm i express --save
     * npm i request --save
