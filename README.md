@@ -30,6 +30,7 @@
     * Put the test codes for the Sudoku rule into spec/backend.spec.js
     * Read each row and sort array and compare with the [0,1,2,3,4,5,6,7,8]
     * Read each column and sort array and compare with the [0,1,2,3,4,5,6,7,8]
+    * Read each 3x3 block and sort array and compare with the [0,1,2,3,4,5,6,7,8]
     * See [spec/backend.spec.js](https://github.com/hotdeveloper/sudoku-backend/blob/master/spec/backend.spec.js)
 
 * Build and test
