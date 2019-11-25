@@ -37,4 +37,4 @@
    * `npm run build` on the project root directory.
    
 * Run
-   * `node app.js`
+   * `npm start`
